@@ -75,7 +75,7 @@ def create_new_graph_for_A(graph, n):
 
 def create_new_graph_for_B(graph, n):
     new_graph = []
-    b = Node(n + 2, new_graph)  # вершина-множество S1
+    b = Node(n + 2, new_graph)  # вершина-множество S2
 
     for v in graph:
         if v.s2:
