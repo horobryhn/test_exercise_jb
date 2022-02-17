@@ -113,7 +113,7 @@ def bfs(root, graph):
 
 
 if __name__ == '__main__':
-    with open(path + "input1.txt", "r") as f:
+    with open(path + "input.txt", "r") as f:
         n, e = map(int, f.readline().split(' '))
         for i in range(e):
             a, b = map(int, f.readline().split(' '))
